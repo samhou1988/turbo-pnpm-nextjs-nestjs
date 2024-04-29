@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@repo/eslint-config-custom": "workspace:*",
+    "@repo/prettier-config-custom": "workspace:*",
     "@repo/tailwind-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@turbo/gen": "^1.12.4",
