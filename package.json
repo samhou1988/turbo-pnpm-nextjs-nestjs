@@ -5,12 +5,18 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "clean-self": "git clean -xdf .turbo node_modules .cache",
+    "clean": "turbo clean",
+    "check": "turbo check"
   },
   "devDependencies": {
     "@repo/eslint-config-custom": "workspace:*",
+    "@repo/prettier-config-custom": "workspace:*",
+    "@repo/stylelint-config-custom": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "prettier": "^3.2.5",
+    "stylelint": "^15.10.2",
     "turbo": "latest"
   },
   "packageManager": "pnpm@9.0.1",

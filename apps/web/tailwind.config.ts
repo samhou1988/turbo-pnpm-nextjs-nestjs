@@ -1,5 +1,5 @@
-import type { Config } from "tailwindcss";
-import baseConfig from "@repo/tailwind-config";
+import baseConfig from '@repo/tailwind-config';
+import type { Config } from 'tailwindcss';
 
 const config = {
   content: [...baseConfig.content, '../../packages/ui/src/**/*.{ts,tsx}'],
